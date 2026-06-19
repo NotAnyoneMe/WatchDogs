@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fim"
+version = "0.1.0"
+description = "File Integrity Monitor — detect unauthorized file changes via SHA-256 hashing"
+requires-python = ">=3.10"
+dependencies = [
+    "watchdog>=4.0",
+]
+
+[project.scripts]
+fim = "fim.cli:main"
+
+[tool.setuptools]
+packages = ["fim"]

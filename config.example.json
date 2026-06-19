@@ -1,0 +1,18 @@
+{
+  "watch_path": "/path/to/your/project",
+  "baseline_path": "~/.fim/baseline.json",
+  "log_path": "~/.fim/fim.log",
+  "ignore_patterns": [
+    ".git",
+    "__pycache__",
+    "*.pyc",
+    "node_modules",
+    ".venv",
+    "venv",
+    ".DS_Store",
+    "*.log",
+    ".pytest_cache",
+    ".mypy_cache",
+    "*.egg-info"
+  ]
+}
