@@ -55,7 +55,7 @@ No bloat, no external services required, no telemetry. Just hashing, diffing, an
 
 ```bash
 git clone https://github.com/NotAnyoneMe/WatchDogs.git
-cd WatchDogs
+cd fim
 ```
 
 ### Install
